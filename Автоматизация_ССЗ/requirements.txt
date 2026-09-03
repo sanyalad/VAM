@@ -1,0 +1,7 @@
+PyQt6
+pandas
+openpyxl
+xlrd
+python-docx
+pywin32
+requests

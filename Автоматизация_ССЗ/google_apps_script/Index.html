@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>План на смену</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; color: #333; }
+    h1 { color: #d32f2f; text-align: center; }
+    .card { background: white; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .date { font-size: 0.85em; color: #777; margin-bottom: 10px; }
+    .text { white-space: pre-wrap; font-size: 1.05em; line-height: 1.4; }
+    .file-link { display: inline-block; margin-top: 10px; padding: 8px 12px; background: #e3f2fd; color: #1976d2; text-decoration: none; border-radius: 4px; font-weight: bold; }
+    .btn { display: block; width: 100%; padding: 12px; border: none; background: #d32f2f; color: white; border-radius: 4px; font-size: 1.1em; cursor: pointer; margin-top: 10px; }
+    .btn:disabled { background: #ccc; }
+    textarea { width: 100%; height: 100px; padding: 10px; box-sizing: border-box; border-radius: 4px; border: 1px solid #ccc; font-size: 1em; margin-bottom: 10px; }
+    input[type=file] { margin-bottom: 15px; width: 100%; }
+    
+    #adminPanel { display: none; background: #fff3e0; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ffcc80;}
+    #loader { text-align: center; margin: 20px 0; font-style: italic; color: #666;}
+  </style>
+</head>
+<body>
+
+  <h1 onclick="toggleAdmin()">План на смену</h1>
+  
+  <!-- Панель для мастера (скрыта по умолчанию, открывается кликом по заголовку) -->
+  <div id="adminPanel">
+    <h3 style="margin-top:0; color: #e65100;">Добавить план (для мастера)</h3>
+    <p style="font-size: 0.9em; color: #666;">Надиктуйте мысли, прикрепите документ. Gemini сам сделает из этого красивый план.</p>
+    <form id="noteForm">
+      <textarea id="noteText" placeholder="Что нужно сделать на смене? (Пишите или диктуйте голосом)"></textarea>
+      <input type="file" id="noteFile">
+      <button type="button" class="btn" id="submitBtn" onclick="submitForm()">Сохранить план (Gemini)</button>
+    </form>
+    <div id="status" style="margin-top:10px; font-weight:bold; text-align:center;"></div>
+  </div>
+
+  <div id="loader">Загрузка заметок...</div>
+  <div id="notesContainer"></div>
+
+  <script>
+    const URL = "ТУТ_БУДЕТ_ВСТАВЛЕН_URL_ВЕБ_ПРИЛОЖЕНИЯ_ПРИ_ДЕПЛОЕ"; // Оставьте как есть, мы не будем его тут хардкодить, GAS сам обрабатывает POST на свой URL
+    
+    // Пасхалка: клик по заголовку показывает панель добавления
+    let clicks = 0;
+    function toggleAdmin() {
+      clicks++;
+      if (clicks >= 3) {
+        document.getElementById('adminPanel').style.display = 'block';
+      }
+    }
+
+    // Загрузка заметок при старте (мы используем GET запрос с action=get_notes)
+    // В Google Apps Script, если мы вызываем свой же URL с параметрами, это сработает.
+    // Но так как мы уже внутри HTML, мы можем использовать google.script.run
+    
+    function loadNotes() {
+      if (typeof google !== 'undefined' && google.script) {
+        google.script.run.withSuccessHandler(renderNotes).getLatestNotes();
+      } else {
+        document.getElementById('loader').innerText = "Ошибка: скрипт запущен вне среды Google.";
+      }
+    }
+
+    function renderNotes(notes) {
+      document.getElementById('loader').style.display = 'none';
+      const container = document.getElementById('notesContainer');
+      container.innerHTML = '';
+      
+      if (!notes || notes.length === 0) {
+        container.innerHTML = '<p style="text-align:center;">Заметок пока нет.</p>';
+        return;
+      }
+      
+      if (notes.length > 0 && notes[0].error) {
+        container.innerHTML = '<p style="color:red;">Ошибка: ' + notes[0].error + '</p>';
+        return;
+      }
+
+      notes.forEach(note => {
+        let div = document.createElement('div');
+        div.className = 'card';
+        
+        let html = `<div class="date">${note.date}</div>`;
+        html += `<div class="text">${note.text}</div>`;
+        
+        if (note.fileUrl) {
+          html += `<a href="${note.fileUrl}" target="_blank" class="file-link">📎 Открыть прикрепленный документ</a>`;
+        }
+        
+        div.innerHTML = html;
+        container.appendChild(div);
+      });
+    }
+
+    function submitForm() {
+      const text = document.getElementById('noteText').value;
+      const fileInput = document.getElementById('noteFile');
+      const btn = document.getElementById('submitBtn');
+      const status = document.getElementById('status');
+      
+      if (!text && fileInput.files.length === 0) {
+        alert("Введите текст или выберите файл");
+        return;
+      }
+      
+      btn.disabled = true;
+      btn.innerText = "Обработка Gemini и сохранение...";
+      status.innerText = "";
+      status.style.color = "black";
+      
+      let reader = new FileReader();
+      
+      reader.onload = function(e) {
+        let payload = {
+          text: text,
+          file: e.target.result,
+          fileName: fileInput.files[0] ? fileInput.files[0].name : ''
+        };
+        
+        sendToGAS(payload, btn, status);
+      };
+      
+      if (fileInput.files.length > 0) {
+        reader.readAsDataURL(fileInput.files[0]);
+      } else {
+        sendToGAS({text: text, file: '', fileName: ''}, btn, status);
+      }
+    }
+    
+    function sendToGAS(payload, btn, status) {
+      // Отправляем POST запрос к этому же веб-приложению
+      // Поскольку мы внутри iframe GAS, мы можем использовать fetch к родительскому URL или google.script.run
+      
+      if (typeof google !== 'undefined' && google.script) {
+        // Мы эмулируем объект 'e'
+        const e = { parameter: payload };
+        google.script.run
+          .withSuccessHandler(function(res) {
+             let response = JSON.parse(res);
+             if(response.success) {
+               status.style.color = "green";
+               status.innerText = "Успешно сохранено!";
+               document.getElementById('noteText').value = '';
+               document.getElementById('noteFile').value = '';
+               loadNotes(); // Перезагружаем список
+             } else {
+               status.style.color = "red";
+               status.innerText = "Ошибка: " + response.error;
+             }
+             btn.disabled = false;
+             btn.innerText = "Сохранить план (Gemini)";
+          })
+          .withFailureHandler(function(error) {
+             status.style.color = "red";
+             status.innerText = "Ошибка сервера: " + error;
+             btn.disabled = false;
+             btn.innerText = "Сохранить план (Gemini)";
+          })
+          .doPost({parameter: payload}); // Прямой вызов серверной функции doPost
+      }
+    }
+
+    // Запускаем загрузку
+    window.onload = loadNotes;
+  </script>
+</body>
+</html>

@@ -1,0 +1,429 @@
+/* ─── ВАМ Engineering Theme v2.0 ─── */
+/* Цветовая система */
+/* Primary:   #3B5BDB / #4C6EF5 hover  */
+/* Success:   #2B8A3E / #37B24D hover  */
+/* Warning:   #E67700 / #F59F00 hover  */
+/* Danger:    #C92A2A / #E03131 hover  */
+/* Neutral:   #495057 / #868E96 hover  */
+/* Surface:   #F8F9FA                  */
+/* Border:    #CED4DA                  */
+/* Text:      #2C3E50                  */
+/* TextMuted: #868E96                  */
+
+/* ─── Базовые виджеты ─── */
+QWidget {
+    font-family: "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 10pt;
+    color: #2C3E50;
+}
+
+QMainWindow {
+    background-color: #F0F2F5;
+}
+
+QDialog {
+    background-color: #F8F9FA;
+}
+
+/* ─── Кнопки ─── */
+QPushButton {
+    background-color: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-weight: 500;
+    min-height: 30px;
+}
+
+QPushButton:hover {
+    background-color: #E9ECEF;
+    border-color: #ADB5BD;
+}
+
+QPushButton:pressed {
+    background-color: #DEE2E6;
+}
+
+QPushButton:disabled {
+    background-color: #F1F3F5;
+    color: #ADB5BD;
+    border-color: #E9ECEF;
+}
+
+/* Акцентные кнопки */
+QPushButton#btn_primary {
+    background-color: #3B5BDB;
+    color: #FFFFFF;
+    border: 1px solid #364FC7;
+    font-weight: 600;
+    border-radius: 6px;
+}
+QPushButton#btn_primary:hover {
+    background-color: #4C6EF5;
+    border-color: #4C6EF5;
+}
+QPushButton#btn_primary:pressed {
+    background-color: #364FC7;
+}
+
+QPushButton#btn_success {
+    background-color: #2B8A3E;
+    color: #FFFFFF;
+    border: 1px solid #237032;
+    font-weight: 600;
+    border-radius: 6px;
+}
+QPushButton#btn_success:hover {
+    background-color: #37B24D;
+    border-color: #37B24D;
+}
+QPushButton#btn_success:pressed {
+    background-color: #237032;
+}
+
+QPushButton#btn_danger {
+    background-color: #C92A2A;
+    color: #FFFFFF;
+    border: 1px solid #A61E1E;
+    font-weight: 600;
+    border-radius: 6px;
+}
+QPushButton#btn_danger:hover {
+    background-color: #E03131;
+    border-color: #E03131;
+}
+QPushButton#btn_danger:pressed {
+    background-color: #A61E1E;
+}
+
+QPushButton#btn_warning {
+    background-color: #E67700;
+    color: #FFFFFF;
+    border: 1px solid #D9480F;
+    font-weight: 600;
+    border-radius: 6px;
+}
+QPushButton#btn_warning:hover {
+    background-color: #F59F00;
+    border-color: #F59F00;
+}
+QPushButton#btn_warning:pressed {
+    background-color: #D9480F;
+}
+
+QPushButton#btn_secondary {
+    background-color: #495057;
+    color: #FFFFFF;
+    border: 1px solid #343A40;
+    border-radius: 6px;
+}
+QPushButton#btn_secondary:hover {
+    background-color: #868E96;
+    border-color: #868E96;
+}
+
+/* ─── Таблицы ─── */
+QTableWidget {
+    background-color: #FFFFFF;
+    gridline-color: #E9ECEF;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    selection-background-color: #E7F5FF;
+    selection-color: #1971C2;
+    alternate-background-color: #F8F9FA;
+    font-size: 10pt;
+}
+
+QTableWidget::item {
+    padding: 7px 8px;
+    border-bottom: 1px solid #F1F3F5;
+}
+
+QTableWidget::item:hover {
+    background-color: #F1F8FF;
+}
+
+QTableWidget::item:selected {
+    background-color: #E7F5FF;
+    color: #1971C2;
+    border: none;
+}
+
+QHeaderView::section {
+    background-color: #F1F3F5;
+    color: #495057;
+    font-weight: 700;
+    font-size: 9.5pt;
+    padding: 8px 8px;
+    border: none;
+    border-bottom: 2px solid #DEE2E6;
+    border-right: 1px solid #E9ECEF;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+QHeaderView::section:first {
+    border-top-left-radius: 5px;
+}
+
+/* ─── GroupBox ─── */
+QGroupBox {
+    background-color: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    border-radius: 8px;
+    margin-top: 4px;
+    padding-top: 32px;
+    font-weight: 600;
+    color: #343A40;
+}
+
+QGroupBox::title {
+    subcontrol-origin: padding;
+    subcontrol-position: top left;
+    padding: 8px 14px;
+    background-color: transparent;
+    color: #495057;
+    font-size: 9.5pt;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+/* ─── Поля ввода ─── */
+QLineEdit, QDateEdit, QComboBox, QTextEdit {
+    border: 1.5px solid #CED4DA;
+    border-radius: 6px;
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    color: #2C3E50;
+    selection-background-color: #D0EBFF;
+}
+
+QLineEdit:focus, QDateEdit:focus, QComboBox:focus, QTextEdit:focus {
+    border-color: #4C6EF5;
+    background-color: #FAFBFF;
+}
+
+QLineEdit:hover, QDateEdit:hover, QComboBox:hover {
+    border-color: #ADB5BD;
+}
+
+QComboBox::drop-down {
+    border-left: 1px solid #DEE2E6;
+    width: 26px;
+    background-color: #F8F9FA;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+QComboBox::down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #495057;
+    margin-top: 1px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    selection-background-color: #E7F5FF;
+    selection-color: #1971C2;
+    padding: 4px;
+}
+
+QComboBox QAbstractItemView::item {
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+/* ─── Progress Bar ─── */
+QProgressBar {
+    background-color: #E9ECEF;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    height: 10px;
+    color: transparent;
+    font-size: 9pt;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #4C6EF5,
+        stop:1 #748FFC
+    );
+    border-radius: 5px;
+}
+
+/* ─── Checkbox ─── */
+QCheckBox {
+    spacing: 8px;
+    color: #2C3E50;
+    font-size: 10pt;
+}
+
+QCheckBox::indicator {
+    width: 17px;
+    height: 17px;
+    border: 1.5px solid #ADB5BD;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #3B5BDB;
+    border-color: #3B5BDB;
+    image: none;
+}
+
+QCheckBox::indicator:hover {
+    border-color: #4C6EF5;
+}
+
+/* ─── Scrollbars ─── */
+QScrollBar:vertical {
+    background: transparent;
+    width: 8px;
+    border: none;
+    margin: 4px 2px;
+}
+
+QScrollBar::handle:vertical {
+    background: #CED4DA;
+    min-height: 30px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #ADB5BD;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 8px;
+    border: none;
+    margin: 2px 4px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #CED4DA;
+    min-width: 30px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #ADB5BD;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0;
+}
+
+/* ─── Tooltips ─── */
+QToolTip {
+    background-color: #212529;
+    color: #F8F9FA;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 9pt;
+}
+
+/* ─── TabWidget ─── */
+QTabWidget::pane {
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    background: #FFFFFF;
+    top: -1px;
+}
+
+QTabBar::tab {
+    background: #F1F3F5;
+    border: 1px solid #DEE2E6;
+    border-bottom: none;
+    padding: 8px 18px;
+    margin-right: 2px;
+    font-size: 10pt;
+    font-weight: 500;
+    color: #495057;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    min-width: 80px;
+}
+
+QTabBar::tab:selected {
+    background: #FFFFFF;
+    color: #3B5BDB;
+    font-weight: 700;
+    border-bottom-color: #FFFFFF;
+    border-top: 2px solid #3B5BDB;
+}
+
+QTabBar::tab:hover:!selected {
+    background: #E9ECEF;
+    color: #2C3E50;
+}
+
+/* ─── Карточки (HubWidget) ─── */
+QFrame#hub_card {
+    background-color: #FFFFFF;
+    border: 1.5px solid #E9ECEF;
+    border-radius: 12px;
+}
+
+QFrame#hub_card:hover {
+    border-color: #4C6EF5;
+    background-color: #FAFBFF;
+}
+
+/* ─── Toast notification ─── */
+QFrame#toast_frame {
+    border-radius: 10px;
+    border: none;
+}
+
+/* ─── Статус бейдж ─── */
+QLabel#badge_primary {
+    background-color: #E7F5FF;
+    color: #1971C2;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-weight: 700;
+    font-size: 9pt;
+}
+
+QLabel#badge_success {
+    background-color: #EBFBEE;
+    color: #2B8A3E;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-weight: 700;
+    font-size: 9pt;
+}
+
+QLabel#badge_warning {
+    background-color: #FFF3BF;
+    color: #E67700;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-weight: 700;
+    font-size: 9pt;
+}
+
+QLabel#badge_danger {
+    background-color: #FFE3E3;
+    color: #C92A2A;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-weight: 700;
+    font-size: 9pt;
+}

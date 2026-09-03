@@ -1,0 +1,24 @@
+2026-08-28 08:06:35,840 [CRITICAL] Unhandled exception:
+ValueError: SIMULATED CRITICAL UI ERROR FOR LOG TESTING
+
+2026-08-28 08:09:02,090 [INFO] (MainThread) InventoryDashboardWidget initialized.
+2026-08-28 08:09:05,627 [INFO] (MainThread) Setting dashboard role: admin
+2026-08-31 08:23:09,636 [INFO] (MainThread) InventoryDashboardWidget initialized.
+2026-08-31 08:23:11,899 [INFO] (MainThread) Setting dashboard role: admin
+2026-08-31 08:28:01,775 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-01 08:21:35,323 [INFO] (MainThread) InventoryDashboardWidget initialized.
+2026-09-01 08:21:42,271 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-01 08:22:25,521 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-01 08:23:05,521 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-01 08:37:18,793 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-01 13:22:25,190 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-01 13:23:44,342 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-01 13:23:51,566 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-02 08:07:17,979 [INFO] (MainThread) InventoryDashboardWidget initialized.
+2026-09-02 08:07:22,213 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-02 12:18:48,302 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-02 12:54:58,399 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-02 12:55:01,326 [INFO] (MainThread) Refreshing database in inventory dashboard.
+2026-09-03 08:31:49,338 [INFO] (MainThread) InventoryDashboardWidget initialized.
+2026-09-03 08:31:53,697 [INFO] (MainThread) Setting dashboard role: admin
+2026-09-03 09:26:56,517 [INFO] (MainThread) Setting dashboard role: admin

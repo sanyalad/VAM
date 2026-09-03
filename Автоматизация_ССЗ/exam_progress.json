@@ -1,0 +1,190 @@
+[
+  {
+    "date": "2026-06-01 09:49",
+    "module_id": "eb_ptb",
+    "ticket_id": 1,
+    "ticket_title": "Билет № 1",
+    "mode": "by_ticket",
+    "score": 5,
+    "total": 10,
+    "wrong_questions": [
+      2,
+      3,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "date": "2026-07-19 11:23",
+    "user": "Неизвестный",
+    "module_id": "eb_group3",
+    "ticket_id": 1,
+    "ticket_title": "Тест № 1",
+    "mode": "by_ticket",
+    "score": 5,
+    "total": 10,
+    "wrong_questions": []
+  },
+  {
+    "date": "2026-07-19 11:25",
+    "user": "Неизвестный",
+    "module_id": "eb_group3",
+    "ticket_id": 1,
+    "ticket_title": "Тест № 1",
+    "mode": "by_ticket",
+    "score": 6,
+    "total": 10,
+    "wrong_questions": []
+  },
+  {
+    "date": "2026-07-20 08:21",
+    "user": "Наладчик КИПиА Войтов А.М.",
+    "module_id": "eb_group3",
+    "ticket_id": 15,
+    "ticket_title": "Тест № 15",
+    "mode": "by_ticket",
+    "score": 4,
+    "total": 10,
+    "wrong_questions": []
+  },
+  {
+    "date": "2026-07-21 08:35",
+    "user": "Наладчик КИПиА Войтов А.М.",
+    "module_id": "eb_group3",
+    "ticket_id": 15,
+    "ticket_title": "Тест № 15",
+    "mode": "by_ticket",
+    "score": 2,
+    "total": 10,
+    "wrong_questions": []
+  },
+  {
+    "date": "2026-07-23 11:59",
+    "user": "Неизвестный",
+    "module_id": "eb_group3",
+    "ticket_id": 1,
+    "ticket_title": "Тест № 1",
+    "mode": "by_ticket",
+    "score": 9,
+    "total": 10,
+    "wrong_questions": []
+  },
+  {
+    "date": "2026-07-23 12:02",
+    "user": "Неизвестный",
+    "module_id": "eb_group3",
+    "ticket_id": "mistakes",
+    "ticket_title": "Мои ошибки",
+    "mode": "mistakes",
+    "score": 10,
+    "total": 17,
+    "wrong_questions": []
+  },
+  {
+    "date": "2026-07-23 12:03",
+    "user": "Неизвестный",
+    "module_id": "eb_group3",
+    "ticket_id": "mistakes",
+    "ticket_title": "Мои ошибки",
+    "mode": "mistakes",
+    "score": 5,
+    "total": 8,
+    "wrong_questions": []
+  },
+  {
+    "date": "2026-07-23 12:04",
+    "user": "Неизвестный",
+    "module_id": "eb_group3",
+    "ticket_id": "mistakes",
+    "ticket_title": "Мои ошибки",
+    "mode": "mistakes",
+    "score": 3,
+    "total": 3,
+    "wrong_questions": []
+  },
+  {
+    "date": "2026-07-23 12:06",
+    "user": "Неизвестный",
+    "module_id": "eb_group3",
+    "ticket_id": 2,
+    "ticket_title": "Тест № 2",
+    "mode": "by_ticket",
+    "score": 3,
+    "total": 10,
+    "wrong_questions": [
+      {
+        "ticket_id": 2,
+        "num": 1,
+        "text": "НА КОГО ВОЗЛОЖЕНА ОБЯЗАННОСТЬ ОБЕСПЕЧЕНИЯ ОХРАНЫ ОКРУЖАЮЩЕЙ СРЕДЫ ПРИ ЭКСПЛУАТАЦИИ ЭЛЕКТРОУСТАНОВОК?",
+        "correct": 1
+      },
+      {
+        "ticket_id": 2,
+        "num": 6,
+        "text": "РАЗРЕШАЕТСЯ ЛИ ПРИМЕНЕНИЕ ЗЕМЛЕРОЙНЫХ МАШИН, ОТБОЙНЫХ МОЛОТКОВ, ЛОМОВ И КИРОК ДЛЯ РЫХЛЕНИЯ ГРУНТА НАД КАБЕЛЕМ, СВЯЗАННОГО С ЕГО РАСКОПКОЙ?",
+        "correct": 2
+      },
+      {
+        "ticket_id": 2,
+        "num": 8,
+        "text": "КАКОЕ МИНИМАЛЬНО ДОПУСТИМОЕ СОПРОТИВЛЕНИЕ ИЗОЛЯЦИИ УСТАНОВЛЕНО ДЛЯ ОСВЕТИТЕЛЬНОЙ ЭЛЕКТРОПРОВОДКИ?",
+        "correct": 1
+      },
+      {
+        "ticket_id": 2,
+        "num": 9,
+        "text": "КАКОЕ СЕЧЕНИЕ УСТАНОВЛЕНО ДЛЯ ЗАЩИТНОГО ПРОВОДНИКА (РЕ) В СИСТЕМЕ TN ДЛЯ ПЕРЕНОСНЫХ ЭЛЕКТРОПРИЁМНИКОВ?",
+        "correct": 1
+      },
+      {
+        "ticket_id": 2,
+        "num": 10,
+        "text": "КАКОВА ПЕРИОДИЧНОСТЬ ПРОВЕРКИ НАЛИЧИЯ И СОСТОЯНИЯ ПЕРЕНОСНЫХ ЗАЗЕМЛЕНИЙ?",
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23 12:08",
+    "user": "Неизвестный",
+    "module_id": "eb_group3",
+    "ticket_id": "mistakes",
+    "ticket_title": "Мои ошибки",
+    "mode": "mistakes",
+    "score": 2,
+    "total": 7,
+    "wrong_questions": [
+      {
+        "ticket_id": "mistakes",
+        "num": 1,
+        "text": "НА КОГО ВОЗЛОЖЕНА ОБЯЗАННОСТЬ ОБЕСПЕЧЕНИЯ ОХРАНЫ ОКРУЖАЮЩЕЙ СРЕДЫ ПРИ ЭКСПЛУАТАЦИИ ЭЛЕКТРОУСТАНОВОК?",
+        "correct": 1
+      },
+      {
+        "ticket_id": "mistakes",
+        "num": 10,
+        "text": "КАКОВА ПЕРИОДИЧНОСТЬ ПРОВЕРКИ НАЛИЧИЯ И СОСТОЯНИЯ ПЕРЕНОСНЫХ ЗАЗЕМЛЕНИЙ?",
+        "correct": 2
+      },
+      {
+        "ticket_id": "mistakes",
+        "num": 9,
+        "text": "КАКОЕ СЕЧЕНИЕ УСТАНОВЛЕНО ДЛЯ ЗАЩИТНОГО ПРОВОДНИКА (РЕ) В СИСТЕМЕ TN ДЛЯ ПЕРЕНОСНЫХ ЭЛЕКТРОПРИЁМНИКОВ?",
+        "correct": 1
+      },
+      {
+        "ticket_id": "mistakes",
+        "num": 6,
+        "text": "РАЗРЕШАЕТСЯ ЛИ ПРИМЕНЕНИЕ ЗЕМЛЕРОЙНЫХ МАШИН, ОТБОЙНЫХ МОЛОТКОВ, ЛОМОВ И КИРОК ДЛЯ РЫХЛЕНИЯ ГРУНТА НАД КАБЕЛЕМ, СВЯЗАННОГО С ЕГО РАСКОПКОЙ?",
+        "correct": 2
+      },
+      {
+        "ticket_id": "mistakes",
+        "num": 8,
+        "text": "КАКОЕ МИНИМАЛЬНО ДОПУСТИМОЕ СОПРОТИВЛЕНИЕ ИЗОЛЯЦИИ УСТАНОВЛЕНО ДЛЯ ОСВЕТИТЕЛЬНОЙ ЭЛЕКТРОПРОВОДКИ?",
+        "correct": 1
+      }
+    ]
+  }
+]

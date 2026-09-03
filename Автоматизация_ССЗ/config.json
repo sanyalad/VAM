@@ -1,0 +1,112 @@
+{
+  "duty_epoch": "2026-07-07",
+  "kip_epoch": "2026-07-01",
+  "min_ppr_per_day": 2,
+  "max_ppr_per_day": 2,
+  "redistribute_enabled": true,
+  "max_bulk_days": 62,
+  "cancel_watchdog_s": 15,
+  "print_job_timeout_s": 30.0,
+  "excel_force_kill_on_cancel": true,
+  "progress_stale_s": 2.0,
+  "prefer_xlsx": true,
+  "warn_on_xls": true,
+  "com_file_timeout_s": 90,
+  "ppr_validation_max_age_s": 900.0,
+  "bulk_extra_autosave_s": 20,
+  "inventory_daily_plan_enabled": true,
+  "inventory_daily_plan_size": 6,
+  "inventory_daily_plan_cooldown_days": 14,
+  "executor_1": "Наладчик КИПиА Таратов Д.В.",
+  "executor_2": "Наладчик КИПиА Гаврилов М.Ю.",
+  "overflow_executor": "Наладчик КИПиА Войтов А.М.",
+  "session_user": "Наладчик КИПиА Войтов А.М.",
+  "task_issuer": "ИО начальника лаборатории ТО КИПиА Мартьянов А. А.",
+  "default_time": "08.00-20.00",
+  "rules": "ИОТ 00-76-2024, \nПБ 01-2023",
+  "task_1": "Выполнить два обхода и визуального осмотра оборудования КИП с отметкой на диаграммах. \nЗаменить заканчивающиеся складывающиеся, рулонные и дисковые диаграммы, проверить и наладить запись.",
+  "place_1": "Цех № 47",
+  "task_2": "Выполнить обход и визуальный осмотр оборудования КИП с отметкой на диаграммах. \nЗаменить заканчивающиеся складывающиеся, рулонные и дисковые диаграммы, проверить и наладить запись.",
+  "place_2": "Цеха № 2, 6, 66-2, 34/66-2, ИСМ",
+  "kip_dmm_place": "Цех № 47",
+  "schedules_dir": "Графики",
+  "history_file": "Учет_выполненных_ППР.txt",
+  "ai_api_key": "",
+  "ai_base_url": "https://openrouter.ai/api/v1/chat/completions",
+  "ai_model": "nvidia/nemotron-nano-12b-v2-vl:free",
+  "telegram_chat_id": "410689929",
+  "executor_overrides": [
+    {
+      "start": "2026-08-01",
+      "end": "2026-08-23",
+      "staff_name": "Наладчик КИПиА Дмитриев И.С.",
+      "absence_type": "Другое",
+      "replacement_name": "",
+      "note": "Изменено в месячном табеле"
+    },
+    {
+      "start": "2026-08-12",
+      "end": "2026-08-23",
+      "staff_name": "Наладчик КИПиА Таратов Д.В.",
+      "absence_type": "Отпуск",
+      "replacement_name": "Наладчик КИПиА Войтов А.М.",
+      "note": "Изменено в месячном табеле"
+    },
+    {
+      "start": "2026-08-21",
+      "end": "2026-08-21",
+      "staff_name": "Наладчик КИПиА Гаврилов М.Ю.",
+      "absence_type": "Другое",
+      "replacement_name": "Наладчик КИПиА Войтов А.М.",
+      "note": "Изменено в месячном табеле"
+    },
+    {
+      "start": "2026-08-22",
+      "end": "2026-08-22",
+      "staff_name": "Наладчик КИПиА Гаврилов М.Ю.",
+      "absence_type": "Другое",
+      "replacement_name": "Войтов А.М.",
+      "note": "Перенесено из старых замен"
+    },
+    {
+      "start": "2026-08-23",
+      "end": "2026-08-23",
+      "staff_name": "Наладчик КИПиА Гаврилов М.Ю.",
+      "absence_type": "Другое",
+      "replacement_name": "Гаврилов М.Ю.",
+      "note": "Перенесено из старых замен"
+    },
+    {
+      "start": "2026-08-24",
+      "end": "2026-08-27",
+      "staff_name": "Наладчик КИПиА Таратов Д.В.",
+      "absence_type": "Отпуск",
+      "replacement_name": "Наладчик КИПиА Дмитриев И.С.",
+      "note": "Изменено в месячном табеле"
+    },
+    {
+      "start": "2026-08-26",
+      "end": "2026-08-27",
+      "staff_name": "Наладчик КИПиА Гаврилов М.Ю.",
+      "absence_type": "Другое",
+      "replacement_name": "Гаврилов М.Ю.",
+      "note": "Перенесено из старых замен"
+    },
+    {
+      "start": "2026-08-28",
+      "end": "2026-08-28",
+      "staff_name": "Наладчик КИПиА Таратов Д.В.",
+      "absence_type": "За свой счёт",
+      "replacement_name": "Наладчик КИПиА Дмитриев И.С.",
+      "note": "Изменено в месячном табеле"
+    },
+    {
+      "start": "2026-08-30",
+      "end": "2026-08-30",
+      "staff_name": "Наладчик КИПиА Гаврилов М.Ю.",
+      "absence_type": "Другое",
+      "replacement_name": "Гаврилов М.Ю.",
+      "note": "Перенесено из старых замен"
+    }
+  ]
+}

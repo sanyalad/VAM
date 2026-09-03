@@ -1,0 +1,231 @@
+Windows fatal exception: code 0x80010108
+
+Current thread 0x00001f00 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\printer_utils.py", line 159 in scan_printers_status
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_window.py", line 664 in clear_printer_queue
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 147 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 151 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: code 0x80010108
+
+Current thread 0x00001f00 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\printer_utils.py", line 196 in clear_all_relevant_queues
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_window.py", line 707 in clear_printer_queue
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 147 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 151 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: code 0x80010108
+
+Current thread 0x00000fe8 [BulkPipelineWorker] (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\xls_color_cache.py", line 177 in __exit__
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 189 in run
+
+Thread 0x00001f00 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 147 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 151 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: code 0x80010108
+
+Current thread 0x000027a8 [PrintWorker] (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\xls_color_cache.py", line 114 in _com_uninit
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\printer_utils.py", line 579 in print_files_batch
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 319 in run
+
+Thread 0x00002e14 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 152 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 156 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: code 0x800706be
+
+Current thread 0x000027a8 [PrintWorker] (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\xls_color_cache.py", line 114 in _com_uninit
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\printer_utils.py", line 579 in print_files_batch
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 319 in run
+
+Thread 0x00002e14 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 152 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 156 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+
+---
+Traceback (most recent call last):
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 455, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 449, in main
+    window = MainWindow()
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 374, in __init__
+    self.ssz = SszWindow()
+               ~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1240, in __init__
+    self._build_ui()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1335, in _build_ui
+    self.ent_manual_work.lineEdit().editingFinished.connect(self._format_manual_inputs)
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SszWindow' object has no attribute '_format_manual_inputs'
+
+---
+Traceback (most recent call last):
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 455, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 449, in main
+    window = MainWindow()
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 374, in __init__
+    self.ssz = SszWindow()
+               ~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1240, in __init__
+    self._build_ui()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1335, in _build_ui
+    self.ent_manual_work.lineEdit().editingFinished.connect(self._format_manual_inputs)
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SszWindow' object has no attribute '_format_manual_inputs'
+Windows fatal exception: code 0x80010108
+
+Current thread 0x00001ec8 [ScheduleAnalysisWorker] (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\xls_color_cache.py", line 214 in __exit__
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 52 in _run_graphs_phase
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 118 in run
+
+Thread 0x00001c84 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 446 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 450 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: code 0x80010108
+
+Current thread 0x00002db8 [ScheduleAnalysisWorker] (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\xls_color_cache.py", line 214 in __exit__
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 52 in _run_graphs_phase
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 118 in run
+
+Thread 0x000018a4 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 446 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 450 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: code 0x80010108
+
+Current thread 0x000029d8 [ScheduleAnalysisWorker] (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\xls_color_cache.py", line 214 in __exit__
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 52 in _run_graphs_phase
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 118 in run
+
+Thread 0x000018a4 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 446 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 450 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: code 0x80010108
+
+Current thread 0x00001b04 [PrintWorker] (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\xls_color_cache.py", line 115 in _com_uninit
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\printer_utils.py", line 584 in print_files_batch
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 294 in run
+
+Thread 0x000018a4 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 446 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 450 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+Windows fatal exception: code 0x80010108
+
+Current thread 0x00001b04 [PrintWorker] (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\xls_color_cache.py", line 115 in _com_uninit
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\printer_utils.py", line 584 in print_files_batch
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\ssz_worker.py", line 294 in run
+
+Thread 0x000018a4 (most recent call first):
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 446 in main
+  File "C:\Users\\u0420\u043e\u0441\u0410\u0442\u043e\u043c\Desktop\\u0412\u0410\u041c\\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f_\u0421\u0421\u0417\main.py", line 450 in <module>
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+
+---
+Traceback (most recent call last):
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 573, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 567, in main
+    window = MainWindow()
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 484, in __init__
+    self.ssz = SszWindow()
+               ~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1247, in __init__
+    self._build_ui()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1392, in _build_ui
+    self.btn_bulk.clicked.connect(self.open_bulk_dialog)
+                                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SszWindow' object has no attribute 'open_bulk_dialog'. Did you mean: '_open_bulk_extra_dialog'?
+
+---
+Traceback (most recent call last):
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 573, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 567, in main
+    window = MainWindow()
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 484, in __init__
+    self.ssz = SszWindow()
+               ~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1247, in __init__
+    self._build_ui()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1392, in _build_ui
+    self.btn_bulk.clicked.connect(self.open_bulk_dialog)
+                                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SszWindow' object has no attribute 'open_bulk_dialog'. Did you mean: '_open_bulk_extra_dialog'?
+
+---
+Traceback (most recent call last):
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 573, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 567, in main
+    window = MainWindow()
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 484, in __init__
+    self.ssz = SszWindow()
+               ~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1247, in __init__
+    self._build_ui()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1392, in _build_ui
+    self.btn_bulk.clicked.connect(self.open_bulk_dialog)
+                                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SszWindow' object has no attribute 'open_bulk_dialog'. Did you mean: '_open_bulk_extra_dialog'?
+
+---
+Traceback (most recent call last):
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 582, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 576, in main
+    window = MainWindow()
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\main.py", line 485, in __init__
+    self.ssz = SszWindow()
+               ~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1247, in __init__
+    self._build_ui()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\РосАтом\Desktop\ВАМ\Автоматизация_ССЗ\ssz_window.py", line 1399, in _build_ui
+    self.btn_bulk.clicked.connect(self.open_bulk_dialog)
+                                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SszWindow' object has no attribute 'open_bulk_dialog'. Did you mean: '_open_bulk_extra_dialog'?

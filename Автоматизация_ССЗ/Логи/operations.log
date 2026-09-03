@@ -1,0 +1,935 @@
+2026-06-01 12:03:47 [worker_start] Массовая генерация
+2026-06-01 12:03:47 [start] BulkPipelineWorker days=21
+2026-06-01 12:10:41 [cancel_requested] BulkPipelineWorker
+2026-06-01 12:11:11 [force_stop] BulkPipelineWorker
+2026-06-01 12:21:59 [worker_start] Массовая генерация
+2026-06-01 12:21:59 [start] BulkPipelineWorker days=21
+2026-06-01 12:21:59 [com_session] skipped no .xls in Графики
+2026-06-01 12:21:59 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-01 12:22:00 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-01 12:22:00 [phase_done] month=6 com_cells=0 total=0.7s
+2026-06-01 12:22:01 [done] BulkPipelineWorker files=21 elapsed=2.4s
+2026-06-01 12:31:07 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-01 12:31:08 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=1.0s
+2026-06-01 12:31:10 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=37 elapsed=2.1s
+2026-06-01 12:31:10 [phase_done] month=6 com_cells=37 total=3.1s
+2026-06-01 16:04:04 [kip_schedule] saved График_д-мм_2026-06-01_2026-06-07.xlsx days=7
+2026-06-01 16:34:57 [worker_start] Массовая генерация
+2026-06-01 16:34:57 [start] BulkPipelineWorker days=21
+2026-06-01 16:34:57 [com_session] start ExcelColorSession
+2026-06-01 16:34:59 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-01 16:34:59 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-01 16:35:01 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=37 elapsed=1.6s
+2026-06-01 16:35:01 [phase_done] month=6 com_cells=37 total=2.2s
+2026-06-01 16:46:54 [cancel_requested] BulkPipelineWorker
+2026-06-01 16:47:24 [force_stop] BulkPipelineWorker
+2026-06-01 16:51:02 [kip_schedule] saved График_д-мм_2026-06-01_2026-06-30.xlsx days=30
+2026-06-01 16:51:04 [worker_start] Печать
+2026-06-01 16:51:04 [start] PrintWorker files=1
+2026-06-01 16:51:11 [done] PrintWorker cancelled=False elapsed=6.7s
+2026-06-28 09:17:42 [worker_start] Предварительный анализ графиков ППР
+2026-06-28 09:17:42 [start] ScheduleAnalysisWorker
+2026-06-28 09:17:42 [com_session] skipped (no .xls / xlsx COM disabled)
+2026-06-28 09:17:42 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-28 09:17:43 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=1.1s
+2026-06-28 09:17:43 [phase_done] month=6 com_cells=0 total=1.1s
+2026-06-28 09:17:43 [phase_start] month=7 files=1 xlsx=1 xls=0
+2026-06-28 09:17:44 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-06-28 09:17:44 [phase_done] month=7 com_cells=0 total=1.5s
+2026-06-28 09:17:44 [done] ScheduleAnalysisWorker cancelled=False elapsed=1.6s
+2026-06-28 09:37:43 [worker_start] Предварительный анализ графиков ППР
+2026-06-28 09:37:43 [start] ScheduleAnalysisWorker
+2026-06-28 09:37:43 [com_session] skipped (no .xls / xlsx COM disabled)
+2026-06-28 09:37:43 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-28 09:37:43 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.7s
+2026-06-28 09:37:43 [phase_done] month=6 com_cells=0 total=0.7s
+2026-06-28 09:37:43 [phase_start] month=7 files=1 xlsx=1 xls=0
+2026-06-28 09:37:44 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-06-28 09:37:44 [phase_done] month=7 com_cells=0 total=1.2s
+2026-06-28 09:37:44 [done] ScheduleAnalysisWorker cancelled=False elapsed=1.2s
+2026-06-28 09:57:32 [worker_start] Массовая генерация
+2026-06-28 09:57:32 [start] BulkPipelineWorker days=31
+2026-06-28 09:57:35 [done] BulkPipelineWorker files=31 elapsed=3.3s
+2026-06-28 10:15:23 [worker_start] Предварительный анализ графиков ППР
+2026-06-28 10:15:23 [start] ScheduleAnalysisWorker
+2026-06-28 10:15:23 [com_session] start ExcelColorSession
+2026-06-28 10:15:24 [phase_start] month=6 files=2 xlsx=2 xls=0
+2026-06-28 10:15:25 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-28 10:15:26 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=2 elapsed=1.7s
+2026-06-28 10:15:26 [phase_done] month=6 com_cells=2 total=2.3s
+2026-06-28 10:15:26 [phase_start] month=7 files=2 xlsx=2 xls=0
+2026-06-28 10:15:27 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-06-28 10:15:27 [phase_done] month=7 com_cells=2 total=2.8s
+2026-06-28 10:17:49 [cancel_requested] ScheduleAnalysisWorker
+2026-06-28 10:18:19 [force_stop] ScheduleAnalysisWorker
+2026-06-28 10:23:05 [worker_start] Предварительный анализ графиков ППР
+2026-06-28 10:23:05 [start] ScheduleAnalysisWorker
+2026-06-28 10:23:05 [com_session] start ExcelColorSession
+2026-06-28 10:23:07 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-28 10:23:07 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-28 10:23:08 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=2 elapsed=0.8s
+2026-06-28 10:23:08 [phase_done] month=6 com_cells=2 total=1.3s
+2026-06-28 10:23:08 [phase_start] month=7 files=1 xlsx=1 xls=0
+2026-06-28 10:23:09 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.7s
+2026-06-28 10:23:09 [phase_done] month=7 com_cells=2 total=2.0s
+2026-06-28 10:25:20 [cancel_requested] ScheduleAnalysisWorker
+2026-06-28 10:25:35 [force_stop] ScheduleAnalysisWorker
+2026-06-28 11:01:03 [worker_start] Предварительный анализ графиков ППР
+2026-06-28 11:01:03 [start] ScheduleAnalysisWorker
+2026-06-28 11:01:03 [com_session] start ExcelColorSession
+2026-06-28 11:01:04 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-28 11:01:04 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.8s
+2026-06-28 11:01:05 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=2 elapsed=0.8s
+2026-06-28 11:01:05 [phase_done] month=6 com_cells=2 total=1.7s
+2026-06-28 11:01:05 [phase_start] month=7 files=1 xlsx=1 xls=0
+2026-06-28 11:01:06 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-06-28 11:01:06 [phase_done] month=7 com_cells=2 total=2.2s
+2026-06-28 11:03:40 [cancel_requested] ScheduleAnalysisWorker
+2026-06-28 11:03:55 [force_stop] ScheduleAnalysisWorker
+2026-06-28 11:22:54 [worker_start] Предварительный анализ графиков ППР
+2026-06-28 11:22:54 [start] ScheduleAnalysisWorker
+2026-06-28 11:22:54 [com_session] start ExcelColorSession
+2026-06-28 11:22:54 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-28 11:22:55 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-28 11:22:56 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=2 elapsed=1.0s
+2026-06-28 11:22:56 [phase_done] month=6 com_cells=2 total=1.6s
+2026-06-28 11:22:56 [phase_start] month=7 files=1 xlsx=1 xls=0
+2026-06-28 11:22:56 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-06-28 11:22:56 [phase_done] month=7 com_cells=2 total=2.1s
+2026-06-28 11:22:57 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.4s
+2026-06-28 11:35:32 [worker_start] Предварительный анализ графиков ППР
+2026-06-28 11:35:32 [start] ScheduleAnalysisWorker
+2026-06-28 11:35:32 [com_session] start ExcelColorSession
+2026-06-28 11:35:32 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-28 11:35:33 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-28 11:35:33 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=37 elapsed=0.0s
+2026-06-28 11:35:33 [phase_done] month=6 com_cells=37 total=0.6s
+2026-06-28 11:35:33 [phase_start] month=7 files=1 xlsx=1 xls=0
+2026-06-28 11:35:33 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-06-28 11:35:33 [phase_done] month=7 com_cells=37 total=1.1s
+2026-06-28 11:35:36 [done] ScheduleAnalysisWorker cancelled=False elapsed=4.8s
+2026-06-28 11:36:09 [worker_start] Массовая генерация
+2026-06-28 11:36:09 [start] BulkPipelineWorker days=32
+2026-06-28 11:36:12 [done] BulkPipelineWorker files=32 elapsed=2.8s
+2026-06-28 11:43:22 [worker_start] Предварительный анализ графиков ППР
+2026-06-28 11:43:22 [start] ScheduleAnalysisWorker
+2026-06-28 11:43:22 [com_session] start ExcelColorSession
+2026-06-28 11:43:22 [phase_start] month=6 files=1 xlsx=1 xls=0
+2026-06-28 11:43:23 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-28 11:43:24 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=37 elapsed=1.1s
+2026-06-28 11:43:24 [phase_done] month=6 com_cells=37 total=1.7s
+2026-06-28 11:43:27 [done] ScheduleAnalysisWorker cancelled=False elapsed=5.4s
+2026-06-28 11:43:32 [worker_start] Массовая генерация
+2026-06-28 11:43:32 [start] BulkPipelineWorker days=30
+2026-06-28 11:43:35 [done] BulkPipelineWorker files=30 elapsed=2.9s
+2026-06-28 11:45:19 [worker_start] Предварительный анализ графиков ППР
+2026-06-28 11:45:19 [start] ScheduleAnalysisWorker
+2026-06-28 11:45:19 [com_session] start ExcelColorSession
+2026-06-28 11:45:20 [phase_start] month=6 files=2 xlsx=2 xls=0
+2026-06-28 11:45:21 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-28 11:45:21 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=37 elapsed=0.0s
+2026-06-28 11:45:21 [phase_done] month=6 com_cells=37 total=0.6s
+2026-06-28 11:45:23 [done] ScheduleAnalysisWorker cancelled=False elapsed=4.0s
+2026-06-28 11:50:12 [worker_start] Массовая генерация
+2026-06-28 11:50:12 [start] BulkPipelineWorker days=30
+2026-06-28 11:50:15 [done] BulkPipelineWorker files=30 elapsed=2.6s
+2026-06-28 11:51:17 [worker_start] Печать
+2026-06-28 11:51:17 [start] PrintWorker files=30
+2026-06-28 11:56:05 [done] PrintWorker cancelled=False elapsed=288.7s
+2026-06-28 19:26:40 [start] ScheduleAnalysisWorker
+2026-06-28 19:26:40 [com_session] start ExcelColorSession
+2026-06-28 19:26:45 [error] ScheduleAnalysisWorker name 'SCHEDULES_DIR' is not defined
+2026-06-28 19:37:36 [start] ScheduleAnalysisWorker
+2026-06-28 19:37:36 [com_session] start ExcelColorSession
+2026-06-28 19:37:51 [start] ScheduleAnalysisWorker
+2026-06-28 19:37:51 [com_session] start ExcelColorSession
+2026-06-28 19:37:52 [phase_start] month=6 files=3 xlsx=3 xls=0
+2026-06-28 19:37:52 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-06-28 19:37:52 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-06-28 19:37:52 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-28 19:37:52 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=17 elapsed=0.0s
+2026-06-28 19:37:52 [phase_done] month=6 com_cells=17 total=0.6s
+2026-06-28 19:38:26 [done] ScheduleAnalysisWorker cancelled=False elapsed=34.6s
+2026-06-29 16:46:08 [start] ScheduleAnalysisWorker
+2026-06-29 16:46:09 [com_session] start ExcelColorSession
+2026-06-29 16:46:16 [phase_start] month=6 files=3 xlsx=3 xls=0
+2026-06-29 16:46:16 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.2s
+2026-06-29 16:46:16 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.1s
+2026-06-29 16:46:17 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.8s
+2026-06-29 16:46:17 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=17 elapsed=0.0s
+2026-06-29 16:46:17 [phase_done] month=6 com_cells=17 total=1.2s
+2026-06-29 16:46:25 [done] ScheduleAnalysisWorker cancelled=False elapsed=16.2s
+2026-06-30 18:00:28 [start] ScheduleAnalysisWorker
+2026-06-30 18:00:28 [com_session] start ExcelColorSession
+2026-06-30 18:00:32 [phase_start] month=6 files=3 xlsx=3 xls=0
+2026-06-30 18:00:32 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.1s
+2026-06-30 18:00:32 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.1s
+2026-06-30 18:00:33 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-06-30 18:00:33 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=17 elapsed=0.0s
+2026-06-30 18:00:33 [phase_done] month=6 com_cells=17 total=0.7s
+2026-06-30 18:00:37 [done] ScheduleAnalysisWorker cancelled=False elapsed=8.6s
+2026-06-30 19:43:43 [start] ScheduleAnalysisWorker
+2026-06-30 19:43:43 [com_session] start ExcelColorSession
+2026-06-30 19:43:52 [phase_start] month=6 files=3 xlsx=3 xls=0
+2026-06-30 19:43:53 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.3s
+2026-06-30 19:43:53 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.1s
+2026-06-30 19:43:54 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.8s
+2026-06-30 19:43:54 [com_batch] Графики ППР на I пол 2026 уч 47.xlsx cells=17 elapsed=0.0s
+2026-06-30 19:43:54 [phase_done] month=6 com_cells=17 total=1.2s
+2026-06-30 19:44:02 [done] ScheduleAnalysisWorker cancelled=False elapsed=18.3s
+2026-07-01 10:25:06 [start] ScheduleAnalysisWorker
+2026-07-01 10:25:06 [com_session] start ExcelColorSession
+2026-07-01 10:25:07 [phase_start] month=7 files=3 xlsx=3 xls=0
+2026-07-01 10:25:07 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-01 10:25:12 [done] ScheduleAnalysisWorker cancelled=False elapsed=6.1s
+2026-07-01 10:34:00 [start] ScheduleAnalysisWorker
+2026-07-01 10:34:00 [com_session] start ExcelColorSession
+2026-07-01 10:34:01 [phase_start] month=7 files=3 xlsx=3 xls=0
+2026-07-01 10:34:01 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-01 10:34:17 [start] ScheduleAnalysisWorker
+2026-07-01 10:34:17 [com_session] start ExcelColorSession
+2026-07-01 10:34:18 [phase_start] month=7 files=3 xlsx=3 xls=0
+2026-07-01 10:34:18 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-01 10:34:22 [done] ScheduleAnalysisWorker cancelled=False elapsed=4.5s
+2026-07-01 10:34:26 [start] ScheduleAnalysisWorker
+2026-07-01 10:34:26 [com_session] start ExcelColorSession
+2026-07-01 10:34:27 [phase_start] month=6 files=3 xlsx=3 xls=0
+2026-07-01 10:34:27 [phase_done] month=6 com_cells=0 total=0.0s
+2026-07-01 10:34:30 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.7s
+2026-07-07 12:37:05 [start] ScheduleAnalysisWorker
+2026-07-07 12:37:05 [com_session] start ExcelColorSession
+2026-07-07 12:37:05 [phase_start] month=7 files=3 xlsx=3 xls=0
+2026-07-07 12:37:05 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-07 12:37:09 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.8s
+2026-07-08 08:13:39 [start] ScheduleAnalysisWorker
+2026-07-08 08:13:39 [com_session] start ExcelColorSession
+2026-07-08 08:13:44 [phase_start] month=7 files=4 xlsx=3 xls=1
+2026-07-08 08:13:46 [phase_done] month=7 com_cells=0 total=1.1s
+2026-07-08 08:13:54 [done] ScheduleAnalysisWorker cancelled=False elapsed=15.3s
+2026-07-08 08:41:29 [start] ScheduleAnalysisWorker
+2026-07-08 08:41:29 [com_session] start ExcelColorSession
+2026-07-08 08:41:30 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 08:41:30 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 08:41:31 [done] ScheduleAnalysisWorker cancelled=False elapsed=1.3s
+2026-07-08 08:41:34 [start] ScheduleAnalysisWorker
+2026-07-08 08:41:34 [com_session] start ExcelColorSession
+2026-07-08 08:41:35 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 08:41:35 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 08:41:35 [done] ScheduleAnalysisWorker cancelled=False elapsed=1.3s
+2026-07-08 08:41:42 [worker_start] Анализ графиков
+2026-07-08 08:41:42 [start] ScheduleAnalysisWorker
+2026-07-08 08:41:42 [com_session] start ExcelColorSession
+2026-07-08 08:41:43 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 08:41:43 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 08:41:44 [done] ScheduleAnalysisWorker cancelled=False elapsed=1.3s
+2026-07-08 08:42:14 [start] ScheduleAnalysisWorker
+2026-07-08 08:42:14 [com_session] start ExcelColorSession
+2026-07-08 08:42:15 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 08:42:15 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 08:42:15 [done] ScheduleAnalysisWorker cancelled=False elapsed=1.3s
+2026-07-08 11:34:15 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:34:15 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:35:06 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:35:06 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:37:08 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:37:08 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:37:22 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:37:22 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:38:17 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:38:17 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:38:25 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:38:25 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:38:36 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:38:36 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:38:49 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:38:49 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:39:05 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:39:05 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:40:00 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:40:00 [phase_done] month=7 com_cells=0 total=0.0s
+2026-07-08 11:40:23 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 11:40:23 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-08 11:40:23 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-08 11:40:25 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=1.2s
+2026-07-08 11:40:25 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.8s
+2026-07-08 11:40:25 [phase_done] month=7 com_cells=0 total=2.0s
+2026-07-08 12:07:10 [start] ScheduleAnalysisWorker
+2026-07-08 12:07:10 [com_session] start ExcelColorSession
+2026-07-08 12:07:17 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 12:07:17 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-08 12:07:17 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-08 12:07:18 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-08 12:07:19 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-08 12:07:21 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=2.6s
+2026-07-08 12:07:21 [phase_done] month=7 com_cells=74 total=3.6s
+2026-07-08 12:07:22 [done] ScheduleAnalysisWorker cancelled=False elapsed=11.5s
+2026-07-08 16:12:50 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 16:12:50 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:12:50 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:12:52 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=1.2s
+2026-07-08 16:12:52 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.7s
+2026-07-08 16:12:52 [phase_done] month=7 com_cells=0 total=2.0s
+2026-07-08 16:24:29 [worker_start] Предварительный анализ графиков ППР
+2026-07-08 16:24:29 [start] ScheduleAnalysisWorker
+2026-07-08 16:24:29 [com_session] start ExcelColorSession
+2026-07-08 16:24:31 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 16:24:31 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:24:31 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:24:32 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.8s
+2026-07-08 16:24:33 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.9s
+2026-07-08 16:24:33 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-08 16:24:33 [phase_done] month=7 com_cells=74 total=1.8s
+2026-07-08 16:24:33 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.9s
+2026-07-08 16:28:53 [worker_start] Предварительный анализ графиков ППР
+2026-07-08 16:28:53 [start] ScheduleAnalysisWorker
+2026-07-08 16:28:53 [com_session] start ExcelColorSession
+2026-07-08 16:28:55 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 16:28:55 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:28:55 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:28:55 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-08 16:28:56 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-08 16:28:56 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-08 16:28:56 [phase_done] month=7 com_cells=74 total=1.1s
+2026-07-08 16:28:56 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.0s
+2026-07-08 16:49:28 [start] ScheduleAnalysisWorker
+2026-07-08 16:49:28 [com_session] start ExcelColorSession
+2026-07-08 16:49:29 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 16:49:29 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:49:29 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:49:29 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-08 16:49:30 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-08 16:49:30 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-08 16:49:30 [phase_done] month=7 com_cells=74 total=1.0s
+2026-07-08 16:49:31 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.3s
+2026-07-08 16:50:34 [worker_start] Анализ графиков
+2026-07-08 16:50:34 [start] ScheduleAnalysisWorker
+2026-07-08 16:50:34 [com_session] start ExcelColorSession
+2026-07-08 16:50:34 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-08 16:50:34 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:50:34 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-08 16:50:35 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-08 16:50:35 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-08 16:50:35 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-08 16:50:35 [phase_done] month=7 com_cells=74 total=1.1s
+2026-07-08 16:50:36 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-09 08:33:36 [worker_start] Анализ графиков
+2026-07-09 08:33:36 [start] ScheduleAnalysisWorker
+2026-07-09 08:33:36 [com_session] start ExcelColorSession
+2026-07-09 08:33:45 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 08:33:45 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 08:33:45 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 08:33:45 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 08:33:46 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 08:33:46 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 08:33:46 [phase_done] month=7 com_cells=74 total=1.3s
+2026-07-09 08:33:47 [done] ScheduleAnalysisWorker cancelled=False elapsed=11.0s
+2026-07-09 09:01:34 [start] ScheduleAnalysisWorker
+2026-07-09 09:01:34 [com_session] start ExcelColorSession
+2026-07-09 09:01:35 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:01:35 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.1s
+2026-07-09 09:01:35 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:01:36 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:01:36 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:01:36 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:01:36 [phase_done] month=7 com_cells=74 total=1.3s
+2026-07-09 09:01:37 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.9s
+2026-07-09 09:05:47 [start] ScheduleAnalysisWorker
+2026-07-09 09:05:47 [com_session] start ExcelColorSession
+2026-07-09 09:05:48 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:05:48 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:05:48 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:05:49 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:05:49 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:05:49 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:05:49 [phase_done] month=7 com_cells=74 total=1.1s
+2026-07-09 09:05:50 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.8s
+2026-07-09 09:07:46 [start] ScheduleAnalysisWorker
+2026-07-09 09:07:46 [com_session] start ExcelColorSession
+2026-07-09 09:07:46 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:07:46 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:07:46 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:07:47 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:07:47 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:07:47 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=73 elapsed=0.0s
+2026-07-09 09:07:47 [phase_done] month=7 com_cells=73 total=1.2s
+2026-07-09 09:07:48 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-09 09:08:05 [start] ScheduleAnalysisWorker
+2026-07-09 09:08:05 [com_session] start ExcelColorSession
+2026-07-09 09:08:06 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:08:06 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:08:06 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:08:06 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:08:07 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:08:07 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=72 elapsed=0.0s
+2026-07-09 09:08:07 [phase_done] month=7 com_cells=72 total=1.1s
+2026-07-09 09:08:07 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.3s
+2026-07-09 09:14:14 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 09:14:14 [start] ScheduleAnalysisWorker
+2026-07-09 09:14:14 [com_session] start ExcelColorSession
+2026-07-09 09:14:15 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:14:15 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:14:15 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:14:15 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:14:16 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:14:16 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:14:16 [phase_done] month=7 com_cells=74 total=1.2s
+2026-07-09 09:14:16 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-09 09:16:39 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 09:16:39 [start] ScheduleAnalysisWorker
+2026-07-09 09:16:39 [com_session] start ExcelColorSession
+2026-07-09 09:16:40 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:16:40 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:16:40 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:16:41 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:16:41 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:16:41 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:16:41 [phase_done] month=7 com_cells=74 total=1.3s
+2026-07-09 09:16:42 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.5s
+2026-07-09 09:17:04 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 09:17:04 [start] ScheduleAnalysisWorker
+2026-07-09 09:17:04 [com_session] start ExcelColorSession
+2026-07-09 09:17:05 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:17:05 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:17:05 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:17:05 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:17:06 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:17:06 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:17:06 [phase_done] month=7 com_cells=74 total=1.0s
+2026-07-09 09:17:07 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.8s
+2026-07-09 09:24:27 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 09:24:27 [start] ScheduleAnalysisWorker
+2026-07-09 09:24:27 [com_session] start ExcelColorSession
+2026-07-09 09:24:28 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:24:28 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:24:28 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:24:29 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:24:29 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:24:29 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:24:29 [phase_done] month=7 com_cells=74 total=1.2s
+2026-07-09 09:24:30 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.9s
+2026-07-09 09:26:29 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 09:26:29 [start] ScheduleAnalysisWorker
+2026-07-09 09:26:29 [com_session] start ExcelColorSession
+2026-07-09 09:26:30 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:26:30 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:26:30 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:26:30 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:26:31 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:26:31 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:26:31 [phase_done] month=7 com_cells=74 total=1.1s
+2026-07-09 09:26:31 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.8s
+2026-07-09 09:32:13 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 09:32:13 [start] ScheduleAnalysisWorker
+2026-07-09 09:32:13 [com_session] start ExcelColorSession
+2026-07-09 09:32:14 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:32:14 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:32:14 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:32:15 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:32:15 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:32:15 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:32:15 [phase_done] month=7 com_cells=74 total=1.1s
+2026-07-09 09:32:16 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.1s
+2026-07-09 09:37:52 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 09:37:52 [start] ScheduleAnalysisWorker
+2026-07-09 09:37:52 [com_session] start ExcelColorSession
+2026-07-09 09:37:53 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:37:53 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:37:53 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:37:54 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.8s
+2026-07-09 09:37:54 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:37:54 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:37:54 [phase_done] month=7 com_cells=74 total=1.5s
+2026-07-09 09:37:55 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.9s
+2026-07-09 09:38:54 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 09:38:54 [start] ScheduleAnalysisWorker
+2026-07-09 09:38:54 [com_session] start ExcelColorSession
+2026-07-09 09:38:55 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 09:38:55 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:38:55 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 09:38:56 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 09:38:56 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 09:38:56 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 09:38:56 [phase_done] month=7 com_cells=74 total=1.1s
+2026-07-09 09:38:57 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.9s
+2026-07-09 12:01:55 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 12:01:55 [start] ScheduleAnalysisWorker
+2026-07-09 12:01:55 [com_session] start ExcelColorSession
+2026-07-09 12:01:57 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 12:01:57 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:01:57 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:01:58 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:01:58 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:01:58 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 12:01:58 [phase_done] month=7 com_cells=74 total=1.1s
+2026-07-09 12:01:59 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.6s
+2026-07-09 12:06:31 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 12:06:31 [start] ScheduleAnalysisWorker
+2026-07-09 12:06:31 [com_session] start ExcelColorSession
+2026-07-09 12:06:32 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 12:06:32 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:06:32 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:06:32 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:06:33 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:06:33 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 12:06:33 [phase_done] month=7 com_cells=74 total=1.0s
+2026-07-09 12:06:33 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.8s
+2026-07-09 12:07:51 [worker_start] Массовая генерация
+2026-07-09 12:07:51 [start] BulkPipelineWorker days=9
+2026-07-09 12:07:52 [done] BulkPipelineWorker files=9 elapsed=0.8s
+2026-07-09 12:10:33 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 12:10:33 [start] ScheduleAnalysisWorker
+2026-07-09 12:10:33 [com_session] start ExcelColorSession
+2026-07-09 12:10:34 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 12:10:34 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:10:34 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:10:35 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:10:35 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:10:35 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 12:10:35 [phase_done] month=7 com_cells=74 total=1.0s
+2026-07-09 12:10:36 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.1s
+2026-07-09 12:11:03 [worker_start] Массовая генерация
+2026-07-09 12:11:03 [start] BulkPipelineWorker days=9
+2026-07-09 12:11:04 [done] BulkPipelineWorker files=9 elapsed=0.9s
+2026-07-09 12:11:39 [worker_start] Печать
+2026-07-09 12:11:39 [start] PrintWorker files=9
+2026-07-09 12:12:59 [cancel_requested] PrintWorker
+2026-07-09 12:13:00 [done] PrintWorker cancelled=True elapsed=80.7s
+2026-07-09 12:13:03 [worker_start] Проверка принтеров
+2026-07-09 12:13:09 [worker_start] Очистка очередей
+2026-07-09 12:15:37 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 12:15:37 [start] ScheduleAnalysisWorker
+2026-07-09 12:15:37 [com_session] start ExcelColorSession
+2026-07-09 12:15:38 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 12:15:38 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:15:38 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:15:38 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:15:39 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:15:39 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 12:15:39 [phase_done] month=7 com_cells=74 total=1.0s
+2026-07-09 12:15:39 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.9s
+2026-07-09 12:16:03 [worker_start] Массовая генерация
+2026-07-09 12:16:03 [start] BulkPipelineWorker days=9
+2026-07-09 12:16:03 [error] BulkPipelineWorker 'NoneType' object has no attribute 'sheet_properties'
+2026-07-09 12:19:46 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 12:19:46 [start] ScheduleAnalysisWorker
+2026-07-09 12:19:46 [com_session] start ExcelColorSession
+2026-07-09 12:19:47 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 12:19:47 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:19:47 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:19:48 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:19:48 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:19:48 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 12:19:48 [phase_done] month=7 com_cells=74 total=1.1s
+2026-07-09 12:19:49 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.8s
+2026-07-09 12:19:59 [worker_start] Проверка принтеров
+2026-07-09 12:20:00 [worker_start] Очистка очередей
+2026-07-09 12:20:20 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 12:20:20 [start] ScheduleAnalysisWorker
+2026-07-09 12:20:20 [com_session] start ExcelColorSession
+2026-07-09 12:20:20 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 12:20:20 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:20:20 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:20:21 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:20:21 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:20:21 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 12:20:21 [phase_done] month=7 com_cells=74 total=1.1s
+2026-07-09 12:20:22 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-09 12:20:25 [worker_start] Массовая генерация
+2026-07-09 12:20:25 [start] BulkPipelineWorker days=9
+2026-07-09 12:20:25 [done] BulkPipelineWorker files=9 elapsed=0.7s
+2026-07-09 12:20:30 [worker_start] Печать
+2026-07-09 12:20:30 [start] PrintWorker files=9
+2026-07-09 12:21:40 [cancel_requested] PrintWorker
+2026-07-09 12:21:41 [done] PrintWorker cancelled=True elapsed=70.7s
+2026-07-09 12:24:40 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 12:24:40 [start] ScheduleAnalysisWorker
+2026-07-09 12:24:40 [com_session] start ExcelColorSession
+2026-07-09 12:24:41 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 12:24:41 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:24:41 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:24:42 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:24:42 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:24:42 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=70 elapsed=0.0s
+2026-07-09 12:24:42 [phase_done] month=7 com_cells=70 total=1.0s
+2026-07-09 12:24:43 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.8s
+2026-07-09 12:24:55 [worker_start] Массовая генерация
+2026-07-09 12:24:55 [start] BulkPipelineWorker days=7
+2026-07-09 12:24:55 [done] BulkPipelineWorker files=7 elapsed=0.6s
+2026-07-09 12:25:22 [worker_start] Проверка принтеров
+2026-07-09 12:25:23 [worker_start] Очистка очередей
+2026-07-09 12:26:15 [worker_start] Проверка принтеров
+2026-07-09 12:26:16 [worker_start] Очистка очередей
+2026-07-09 12:26:28 [worker_start] Предварительный анализ графиков ППР
+2026-07-09 12:26:28 [start] ScheduleAnalysisWorker
+2026-07-09 12:26:28 [com_session] start ExcelColorSession
+2026-07-09 12:26:29 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 12:26:29 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:26:29 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 12:26:30 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:26:30 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 12:26:30 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=70 elapsed=0.0s
+2026-07-09 12:26:30 [phase_done] month=7 com_cells=70 total=1.1s
+2026-07-09 12:26:31 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-09 12:26:32 [worker_start] Массовая генерация
+2026-07-09 12:26:32 [start] BulkPipelineWorker days=7
+2026-07-09 12:26:33 [done] BulkPipelineWorker files=7 elapsed=0.6s
+2026-07-09 12:26:39 [worker_start] Печать
+2026-07-09 12:26:39 [start] PrintWorker files=7
+2026-07-09 12:27:07 [done] PrintWorker cancelled=False elapsed=27.7s
+2026-07-09 13:18:27 [start] ScheduleAnalysisWorker
+2026-07-09 13:18:27 [com_session] start ExcelColorSession
+2026-07-09 13:18:31 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 13:18:31 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 13:18:31 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 13:18:32 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 13:18:32 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 13:18:32 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=56 elapsed=0.0s
+2026-07-09 13:18:32 [phase_done] month=7 com_cells=56 total=1.0s
+2026-07-09 13:18:33 [done] ScheduleAnalysisWorker cancelled=False elapsed=5.6s
+2026-07-09 14:59:17 [start] ScheduleAnalysisWorker
+2026-07-09 14:59:17 [com_session] start ExcelColorSession
+2026-07-09 14:59:19 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 14:59:19 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 14:59:19 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 14:59:20 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 14:59:20 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 14:59:20 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=56 elapsed=0.0s
+2026-07-09 14:59:20 [phase_done] month=7 com_cells=56 total=1.1s
+2026-07-09 14:59:21 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.5s
+2026-07-09 15:04:06 [start] ScheduleAnalysisWorker
+2026-07-09 15:04:06 [com_session] start ExcelColorSession
+2026-07-09 15:04:07 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 15:04:07 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.1s
+2026-07-09 15:04:07 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:04:08 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 15:04:08 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 15:04:08 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=74 elapsed=0.0s
+2026-07-09 15:04:08 [phase_done] month=7 com_cells=74 total=1.2s
+2026-07-09 15:04:09 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.5s
+2026-07-09 15:09:29 [start] ScheduleAnalysisWorker
+2026-07-09 15:09:29 [com_session] start ExcelColorSession
+2026-07-09 15:09:30 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 15:09:30 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:09:30 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:09:30 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 15:09:31 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 15:09:31 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=73 elapsed=0.0s
+2026-07-09 15:09:31 [phase_done] month=7 com_cells=73 total=1.1s
+2026-07-09 15:09:32 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-09 15:10:10 [start] ScheduleAnalysisWorker
+2026-07-09 15:10:10 [com_session] start ExcelColorSession
+2026-07-09 15:10:11 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 15:10:11 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:10:11 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:10:11 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 15:10:12 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.7s
+2026-07-09 15:10:12 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=72 elapsed=0.0s
+2026-07-09 15:10:12 [phase_done] month=7 com_cells=72 total=1.3s
+2026-07-09 15:10:13 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.6s
+2026-07-09 15:10:21 [start] ScheduleAnalysisWorker
+2026-07-09 15:10:21 [com_session] start ExcelColorSession
+2026-07-09 15:10:22 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 15:10:22 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:10:22 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:10:22 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 15:10:23 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 15:10:23 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=71 elapsed=0.0s
+2026-07-09 15:10:23 [phase_done] month=7 com_cells=71 total=1.1s
+2026-07-09 15:10:23 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-09 15:10:53 [start] ScheduleAnalysisWorker
+2026-07-09 15:10:53 [com_session] start ExcelColorSession
+2026-07-09 15:10:54 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 15:10:54 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:10:54 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:10:55 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 15:10:55 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 15:10:55 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=70 elapsed=0.0s
+2026-07-09 15:10:55 [phase_done] month=7 com_cells=70 total=1.2s
+2026-07-09 15:10:56 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.6s
+2026-07-09 15:11:28 [start] ScheduleAnalysisWorker
+2026-07-09 15:11:28 [com_session] start ExcelColorSession
+2026-07-09 15:11:29 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 15:11:29 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:11:29 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:11:29 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 15:11:30 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.7s
+2026-07-09 15:11:30 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=69 elapsed=0.0s
+2026-07-09 15:11:30 [phase_done] month=7 com_cells=69 total=1.3s
+2026-07-09 15:11:30 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.6s
+2026-07-09 15:15:01 [start] ScheduleAnalysisWorker
+2026-07-09 15:15:01 [com_session] start ExcelColorSession
+2026-07-09 15:15:02 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 15:15:02 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:15:02 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:15:03 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 15:15:03 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 15:15:03 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=68 elapsed=0.0s
+2026-07-09 15:15:03 [phase_done] month=7 com_cells=68 total=1.2s
+2026-07-09 15:15:04 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-09 15:16:39 [start] ScheduleAnalysisWorker
+2026-07-09 15:16:39 [com_session] start ExcelColorSession
+2026-07-09 15:16:39 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-09 15:16:39 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:16:39 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-09 15:16:40 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-09 15:16:40 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-09 15:16:40 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=67 elapsed=0.0s
+2026-07-09 15:16:40 [phase_done] month=7 com_cells=67 total=1.1s
+2026-07-09 15:16:41 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-10 12:39:15 [worker_start] Анализ графиков
+2026-07-10 12:39:15 [start] ScheduleAnalysisWorker
+2026-07-10 12:39:15 [com_session] start ExcelColorSession
+2026-07-10 12:39:35 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-10 12:39:36 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.2s
+2026-07-10 12:39:36 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.1s
+2026-07-10 12:39:36 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-10 12:39:37 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-10 12:39:37 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=69 elapsed=0.0s
+2026-07-10 12:39:37 [phase_done] month=7 com_cells=69 total=1.3s
+2026-07-10 12:39:37 [done] ScheduleAnalysisWorker cancelled=False elapsed=22.6s
+2026-07-10 12:40:15 [worker_start] Предварительный анализ графиков ППР
+2026-07-10 12:40:15 [start] ScheduleAnalysisWorker
+2026-07-10 12:40:15 [com_session] start ExcelColorSession
+2026-07-10 12:40:16 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-10 12:40:16 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.1s
+2026-07-10 12:40:16 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-10 12:40:16 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-10 12:40:17 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-10 12:40:17 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=69 elapsed=0.0s
+2026-07-10 12:40:17 [phase_done] month=7 com_cells=69 total=1.2s
+2026-07-10 12:40:18 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.6s
+2026-07-10 12:41:32 [worker_start] Массовая генерация
+2026-07-10 12:41:32 [start] BulkPipelineWorker days=1
+2026-07-10 12:41:32 [done] BulkPipelineWorker files=1 elapsed=0.2s
+2026-07-10 12:41:44 [worker_start] Печать
+2026-07-10 12:41:44 [start] PrintWorker files=1
+2026-07-10 12:41:55 [done] PrintWorker cancelled=False elapsed=11.0s
+2026-07-10 12:43:11 [worker_start] Проверка принтеров
+2026-07-10 12:43:18 [worker_start] Очистка очередей
+2026-07-10 12:44:01 [worker_start] Предварительный анализ графиков ППР
+2026-07-10 12:44:01 [start] ScheduleAnalysisWorker
+2026-07-10 12:44:01 [com_session] start ExcelColorSession
+2026-07-10 12:44:02 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-10 12:44:02 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-10 12:44:02 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-10 12:44:02 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-10 12:44:03 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-10 12:44:03 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=69 elapsed=0.0s
+2026-07-10 12:44:03 [phase_done] month=7 com_cells=69 total=1.1s
+2026-07-10 12:44:03 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.4s
+2026-07-10 12:44:06 [worker_start] Массовая генерация
+2026-07-10 12:44:06 [start] BulkPipelineWorker days=1
+2026-07-10 12:44:07 [done] BulkPipelineWorker files=1 elapsed=0.1s
+2026-07-10 12:44:08 [worker_start] Печать
+2026-07-10 12:44:08 [start] PrintWorker files=1
+2026-07-10 12:44:14 [done] PrintWorker cancelled=False elapsed=6.0s
+2026-07-10 14:26:59 [worker_start] Проверка принтеров
+2026-07-10 14:27:02 [worker_start] Очистка очередей
+2026-07-13 09:14:22 [start] ScheduleAnalysisWorker
+2026-07-13 09:14:22 [com_session] start ExcelColorSession
+2026-07-13 09:14:31 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-13 09:14:31 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.1s
+2026-07-13 09:14:31 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-13 09:14:32 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-13 09:14:33 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-13 09:14:33 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=67 elapsed=0.0s
+2026-07-13 09:14:33 [phase_done] month=7 com_cells=67 total=1.2s
+2026-07-13 09:14:33 [done] ScheduleAnalysisWorker cancelled=False elapsed=11.7s
+2026-07-13 09:31:59 [start] ScheduleAnalysisWorker
+2026-07-13 09:31:59 [com_session] start ExcelColorSession
+2026-07-13 09:32:00 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-13 09:32:00 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-13 09:32:00 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-13 09:32:00 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-13 09:32:01 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-13 09:32:01 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=66 elapsed=0.0s
+2026-07-13 09:32:01 [phase_done] month=7 com_cells=66 total=1.1s
+2026-07-13 09:32:01 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.5s
+2026-07-13 09:33:12 [start] ScheduleAnalysisWorker
+2026-07-13 09:33:12 [com_session] start ExcelColorSession
+2026-07-13 09:33:13 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-13 09:33:13 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-13 09:33:13 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-13 09:33:13 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-13 09:33:14 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-13 09:33:14 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=65 elapsed=0.0s
+2026-07-13 09:33:14 [phase_done] month=7 com_cells=65 total=1.2s
+2026-07-13 09:33:14 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.5s
+2026-07-13 09:33:21 [start] ScheduleAnalysisWorker
+2026-07-13 09:33:21 [com_session] start ExcelColorSession
+2026-07-13 09:33:21 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-13 09:33:21 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-13 09:33:21 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-13 09:33:22 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-13 09:33:22 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.7s
+2026-07-13 09:33:23 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-13 09:33:23 [phase_done] month=7 com_cells=64 total=1.2s
+2026-07-13 09:33:23 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.5s
+2026-07-13 16:45:04 [worker_start] Анализ графиков
+2026-07-13 16:45:04 [start] ScheduleAnalysisWorker
+2026-07-13 16:45:04 [com_session] start ExcelColorSession
+2026-07-13 16:45:06 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-13 16:45:06 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-13 16:45:06 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-13 16:45:06 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-13 16:45:07 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-13 16:45:07 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-13 16:45:07 [phase_done] month=7 com_cells=64 total=1.1s
+2026-07-13 16:45:07 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.2s
+2026-07-13 16:45:34 [worker_start] Печать
+2026-07-13 16:45:34 [start] PrintWorker files=1
+2026-07-13 16:45:41 [done] PrintWorker cancelled=False elapsed=6.7s
+2026-07-14 16:25:44 [worker_start] Анализ графиков
+2026-07-14 16:25:44 [start] ScheduleAnalysisWorker
+2026-07-14 16:25:44 [com_session] start ExcelColorSession
+2026-07-14 16:25:56 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-14 16:25:56 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.1s
+2026-07-14 16:25:56 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-14 16:25:57 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-14 16:25:57 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-14 16:25:57 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-14 16:25:57 [phase_done] month=7 com_cells=64 total=1.1s
+2026-07-14 16:25:58 [done] ScheduleAnalysisWorker cancelled=False elapsed=14.4s
+2026-07-14 16:28:35 [worker_start] Печать
+2026-07-14 16:28:35 [start] PrintWorker files=1
+2026-07-14 16:28:40 [done] PrintWorker cancelled=False elapsed=4.7s
+2026-07-14 16:31:42 [worker_start] Анализ графиков
+2026-07-14 16:31:42 [start] ScheduleAnalysisWorker
+2026-07-14 16:31:42 [com_session] start ExcelColorSession
+2026-07-14 16:31:42 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-14 16:31:42 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-14 16:31:42 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-14 16:31:43 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-14 16:31:44 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-14 16:31:44 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=66 elapsed=0.0s
+2026-07-14 16:31:44 [phase_done] month=7 com_cells=66 total=1.2s
+2026-07-14 16:31:44 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.5s
+2026-07-14 16:32:32 [worker_start] Печать
+2026-07-14 16:32:32 [start] PrintWorker files=1
+2026-07-14 16:32:36 [done] PrintWorker cancelled=False elapsed=3.9s
+2026-07-14 16:32:39 [worker_start] Анализ графиков
+2026-07-14 16:32:39 [start] ScheduleAnalysisWorker
+2026-07-14 16:32:39 [com_session] start ExcelColorSession
+2026-07-14 16:32:40 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-14 16:32:40 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-14 16:32:40 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-14 16:32:40 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-14 16:32:41 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-14 16:32:41 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-14 16:32:41 [phase_done] month=7 com_cells=64 total=1.2s
+2026-07-14 16:32:42 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.5s
+2026-07-14 16:34:34 [worker_start] Анализ графиков
+2026-07-14 16:34:34 [start] ScheduleAnalysisWorker
+2026-07-14 16:34:34 [com_session] start ExcelColorSession
+2026-07-14 16:34:34 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-14 16:34:34 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-14 16:34:34 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-14 16:34:35 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-14 16:34:36 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-14 16:34:36 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-14 16:34:36 [phase_done] month=7 com_cells=64 total=1.2s
+2026-07-14 16:34:36 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.6s
+2026-07-14 16:34:53 [worker_start] Печать
+2026-07-14 16:34:53 [start] PrintWorker files=1
+2026-07-14 16:34:59 [done] PrintWorker cancelled=False elapsed=6.4s
+2026-07-15 08:28:17 [worker_start] Анализ графиков
+2026-07-15 08:28:17 [start] ScheduleAnalysisWorker
+2026-07-15 08:28:17 [com_session] start ExcelColorSession
+2026-07-15 08:28:26 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-15 08:28:27 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.1s
+2026-07-15 08:28:27 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-15 08:28:27 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-15 08:28:28 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-15 08:28:28 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-15 08:28:28 [phase_done] month=7 com_cells=64 total=1.1s
+2026-07-15 08:28:28 [done] ScheduleAnalysisWorker cancelled=False elapsed=11.4s
+2026-07-15 12:59:57 [worker_start] Анализ графиков
+2026-07-15 12:59:57 [start] ScheduleAnalysisWorker
+2026-07-15 12:59:57 [com_session] start ExcelColorSession
+2026-07-15 13:00:02 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-15 13:00:02 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-15 13:00:02 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-15 13:00:03 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-15 13:00:03 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-15 13:00:03 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-15 13:00:03 [phase_done] month=7 com_cells=64 total=1.1s
+2026-07-15 13:00:04 [done] ScheduleAnalysisWorker cancelled=False elapsed=6.5s
+2026-07-15 13:01:28 [worker_start] Печать
+2026-07-15 13:01:28 [start] PrintWorker files=1
+2026-07-15 13:01:36 [done] PrintWorker cancelled=False elapsed=7.8s
+2026-07-16 15:08:42 [worker_start] Печать
+2026-07-16 15:08:42 [start] PrintWorker files=1
+2026-07-16 15:08:48 [done] PrintWorker cancelled=False elapsed=5.6s
+2026-07-16 15:09:21 [worker_start] Анализ графиков
+2026-07-16 15:09:21 [start] ScheduleAnalysisWorker
+2026-07-16 15:09:21 [com_session] start ExcelColorSession
+2026-07-16 15:09:28 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-16 15:09:28 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-16 15:09:28 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-16 15:09:29 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-16 15:09:29 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-16 15:09:29 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-16 15:09:29 [phase_done] month=7 com_cells=64 total=1.2s
+2026-07-16 15:09:30 [done] ScheduleAnalysisWorker cancelled=False elapsed=9.0s
+2026-07-16 15:09:50 [worker_start] Печать
+2026-07-16 15:09:50 [start] PrintWorker files=1
+2026-07-16 15:09:53 [done] PrintWorker cancelled=False elapsed=3.6s
+2026-07-16 15:14:28 [start] ScheduleAnalysisWorker
+2026-07-16 15:14:28 [com_session] start ExcelColorSession
+2026-07-16 15:14:28 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-16 15:14:28 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-16 15:14:28 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-16 15:14:29 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-16 15:14:29 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-16 15:14:29 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-16 15:14:29 [phase_done] month=7 com_cells=64 total=1.2s
+2026-07-16 15:14:30 [done] ScheduleAnalysisWorker cancelled=False elapsed=2.5s
+2026-07-17 08:19:03 [worker_start] Анализ графиков
+2026-07-17 08:19:03 [start] ScheduleAnalysisWorker
+2026-07-17 08:19:03 [com_session] start ExcelColorSession
+2026-07-17 08:19:16 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-17 08:19:17 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.2s
+2026-07-17 08:19:17 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.1s
+2026-07-17 08:19:17 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-17 08:19:18 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.5s
+2026-07-17 08:19:18 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-17 08:19:18 [phase_done] month=7 com_cells=64 total=1.4s
+2026-07-17 08:19:19 [done] ScheduleAnalysisWorker cancelled=False elapsed=15.3s
+2026-07-17 09:16:02 [start] ScheduleAnalysisWorker
+2026-07-17 09:16:02 [com_session] start ExcelColorSession
+2026-07-17 09:16:04 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-17 09:16:04 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.1s
+2026-07-17 09:16:04 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.0s
+2026-07-17 09:16:05 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.8s
+2026-07-17 09:16:06 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.8s
+2026-07-17 09:16:06 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-17 09:16:06 [phase_done] month=7 com_cells=64 total=1.8s
+2026-07-17 09:16:06 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.9s
+2026-07-17 15:51:46 [worker_start] Анализ графиков
+2026-07-17 15:51:46 [start] ScheduleAnalysisWorker
+2026-07-17 15:51:46 [com_session] start ExcelColorSession
+2026-07-17 15:52:11 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-17 15:52:11 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.1s
+2026-07-17 15:52:11 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.1s
+2026-07-17 15:52:12 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.9s
+2026-07-17 15:52:13 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.7s
+2026-07-17 15:52:13 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-17 15:52:13 [phase_done] month=7 com_cells=64 total=1.8s
+2026-07-17 15:52:15 [done] ScheduleAnalysisWorker cancelled=False elapsed=28.3s
+2026-07-17 15:54:21 [worker_start] Предварительный анализ графиков ППР
+2026-07-17 15:54:21 [start] ScheduleAnalysisWorker
+2026-07-17 15:54:21 [com_session] start ExcelColorSession
+2026-07-17 15:54:22 [phase_start] month=7 files=4 xlsx=4 xls=0
+2026-07-17 15:54:22 [file_read] График_д-мм_2026-06-01_2026-06-07.xlsx sheets=1 elapsed=0.0s
+2026-07-17 15:54:22 [file_read] График_д-мм_2026-06-01_2026-06-30.xlsx sheets=1 elapsed=0.1s
+2026-07-17 15:54:23 [file_read] Графики ППР на I пол 2026 уч 47.xlsx sheets=6 elapsed=0.8s
+2026-07-17 15:54:23 [file_read] Графики ППР на II пол 2026 уч 47.xlsx sheets=6 elapsed=0.6s
+2026-07-17 15:54:23 [com_batch] Графики ППР на II пол 2026 уч 47.xlsx cells=64 elapsed=0.0s
+2026-07-17 15:54:23 [phase_done] month=7 com_cells=64 total=1.5s
+2026-07-17 15:54:24 [done] ScheduleAnalysisWorker cancelled=False elapsed=3.0s
+2026-07-17 15:59:26 [worker_start] Массовая генерация
+2026-07-17 15:59:26 [start] BulkPipelineWorker days=3
+2026-07-17 15:59:26 [done] BulkPipelineWorker files=3 elapsed=0.4s
+2026-07-17 15:59:30 [worker_start] Печать
+2026-07-17 15:59:30 [start] PrintWorker files=3
+2026-07-17 15:59:46 [done] PrintWorker cancelled=False elapsed=16.2s
